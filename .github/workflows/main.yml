@@ -38,5 +38,5 @@ jobs:
    runs-on: ubuntu-latest
    steps:
    - name: testing the script
-     run: ech testing     
+     run: ./build.sh    
          
