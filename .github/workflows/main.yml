@@ -38,7 +38,6 @@ jobs:
    runs-on: ubuntu-latest
    steps:
    - name: testing the script
-     run: |
-        pwd
-       ./build.sh    
+     run: pwd
+        
          
