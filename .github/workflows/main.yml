@@ -33,7 +33,7 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-    #if: "contains(github.event.head_commit.message, 'oom_killer_test')"
+    if: "contains(github.event.head_commit.message, 'development')"
   test:
    runs-on: ubuntu-latest
    steps:
