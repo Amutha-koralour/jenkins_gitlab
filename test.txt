@@ -3,7 +3,5 @@ best
 rest
 nest
 west
-best
-guest
-nest
+
 
